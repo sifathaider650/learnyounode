@@ -1,7 +1,7 @@
-let result = 0;
+let newresult = 0;
 
 for (let i = 2; i < process.argv.length; i++) {
-  result += Number(process.argv[i]);
+ newresult += Number(process.argv[i]);
 }
 
-console.log(result);
+console.log(newresult);
